@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
 
         // Check if URL is configured
-        if (APPS_SCRIPT_URL === 'https://script.google.com/macros/s/AKfycby6QbgyrcIKnCsWwwCff_6DiZjS1wdELEevD4G2eHlaxbY1CzYojCvT7wPKtFEJosk4EQ/exec') {
+        if (APPS_SCRIPT_URL === 'https://script.googleusercontent.com/macros/echo?user_content_key=AY5xjrShfXyXiuklMYVU8IvYnR5F6JVxW5jPcSZlNWpKewgLOsLCNIG3aSm_vO9XC16tP_YqC99lrfnJq9NYVCB3ySYYq4wISJulSuRivY7ZzCd-6fW7URlT4hhY4Ai3gCWiZJAbboYj_0Tz0P4xrQx8rUxGb3XTIBm6ENUhuXl2Y8uPvgOyxldoLRr6sY_4FiBqgU4aJdUeRXOolDgRoYqUWqQ3mEwNeqjFB1cibnplAJDIaD-TJalv3o3LpFsJgWzh31zOXKLR-miHE4aAQ0uuieVNmvcPsQ&lib=MWp-FEogpe8qzj6R2oZSWI3mdS878ONfk') {
             showStatus('🚨 Please update APPS_SCRIPT_URL in app.js with your Google Apps Script URL.', 'error');
             return;
         }
@@ -85,4 +85,5 @@ document.addEventListener('DOMContentLoaded', () => {
         statusMessage.classList.remove('hidden');
     }
 });
+
 
