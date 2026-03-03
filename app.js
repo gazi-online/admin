@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const statusMessage = document.getElementById('status-message');
 
     // IMPORTANT: Replace this URL with your deployed Google Apps Script Web App URL!
-    const APPS_SCRIPT_URL = 'YOUR_WEB_APP_URL_HERE'; // e.g., 'https://script.google.com/macros/s/AKfycb.../exec'
+    const APPS_SCRIPT_URL = 'https://script.googleusercontent.com/macros/echo?user_content_key=AY5xjrShfXyXiuklMYVU8IvYnR5F6JVxW5jPcSZlNWpKewgLOsLCNIG3aSm_vO9XC16tP_YqC99lrfnJq9NYVCB3ySYYq4wISJulSuRivY7ZzCd-6fW7URlT4hhY4Ai3gCWiZJAbboYj_0Tz0P4xrQx8rUxGb3XTIBm6ENUhuXl2Y8uPvgOyxldoLRr6sY_4FiBqgU4aJdUeRXOolDgRoYqUWqQ3mEwNeqjFB1cibnplAJDIaD-TJalv3o3LpFsJgWzh31zOXKLR-miHE4aAQ0uuieVNmvcPsQ&lib=MWp-FEogpe8qzj6R2oZSWI3mdS878ONfk'; // e.g., 'https://script.google.com/macros/s/AKfycb.../exec'
 
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
@@ -85,5 +85,6 @@ document.addEventListener('DOMContentLoaded', () => {
         statusMessage.classList.remove('hidden');
     }
 });
+
 
 
