@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
 
         // Check if URL is configured
-        if (APPS_SCRIPT_URL === 'YOUR_WEB_APP_URL_HERE') {
+        if (APPS_SCRIPT_URL === 'https://script.google.com/macros/s/AKfycby6QbgyrcIKnCsWwwCff_6DiZjS1wdELEevD4G2eHlaxbY1CzYojCvT7wPKtFEJosk4EQ/exec') {
             showStatus('🚨 Please update APPS_SCRIPT_URL in app.js with your Google Apps Script URL.', 'error');
             return;
         }
@@ -85,3 +85,4 @@ document.addEventListener('DOMContentLoaded', () => {
         statusMessage.classList.remove('hidden');
     }
 });
+
